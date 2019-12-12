@@ -77,9 +77,13 @@ stories.addDecorator(withA11y);
 
 ## Project Stack
 
-| Front-end | Tools |
-|-------------|-------------|
-| <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/html-5.svg?sanitize=true" height="16" /> HTML5 <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/css-3.svg?sanitize=true" height="16" /> CSS3 & Sass  <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/javascript.svg?sanitize=true" height="16" /> JavaScript ES6 <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/react.svg?sanitize=true" height="16" /> React | <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/webpack.svg?sanitize=true" height="16" /> webpack <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/storybook-icon.svg?sanitize=true" height="16" /> Storybook <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/babel.svg?sanitize=true" height="16" /> Babel <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/eslint.svg?sanitize=true" height="16" /> ESLint <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/prettier.svg?sanitize=true" height="16" /> Prettier |
+| Front-end |
+|-------------|
+| <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/html-5.svg?sanitize=true" height="16" /> HTML5 <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/css-3.svg?sanitize=true" height="16" /> CSS3 & Sass  <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/javascript.svg?sanitize=true" height="16" /> JavaScript ES6 <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/react.svg?sanitize=true" height="16" /> React |
+
+| Tools |
+|-------------|
+| <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/webpack.svg?sanitize=true" height="16" /> webpack <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/storybook-icon.svg?sanitize=true" height="16" /> Storybook <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/babel.svg?sanitize=true" height="16" /> Babel <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/eslint.svg?sanitize=true" height="16" /> ESLint <img src="__RAW_GITHUB__project-scripts/webpack/markdown/logos/prettier.svg?sanitize=true" height="16" /> Prettier |
 
 ## Features
 
