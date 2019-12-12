@@ -26,14 +26,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rakuten-rex/react-component-starter-kit.git"
+    "url": "https://github.com/rakuten-rex/storybook-inspect-html.git"
   },
-  "author": "ReX React UI Components Library Authors (https://github.com/rakuten-rex/react-component-starter-kit/graphs/contributors)",
+  "author": "ReX React UI Components Library Authors (https://github.com/rakuten-rex/storybook-inspect-html/graphs/contributors)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rakuten-rex/react-component-starter-kit/issues"
+    "url": "https://github.com/rakuten-rex/storybook-inspect-html/issues"
   },
-  "homepage": "https://rakuten-rex.github.io/react-component-starter-kit/",
+  "homepage": "https://rakuten-rex.github.io/storybook-inspect-html/",
   "dependencies": {
     "pretty": "2.0.0",
     "prismjs": "1.16.0",
