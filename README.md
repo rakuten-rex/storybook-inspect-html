@@ -9,13 +9,13 @@ React, HTML/CSS and Vue.js
 <img src="project-scripts/webpack/markdown/logos/npm.svg?sanitize=true" height="16" />
 
 ```
-npm install @rakuten-rex/storybook-inspect-html@1.2.4 --save
+npm install @rakuten-rex/storybook-inspect-html@1.2.5 --save
 ```
 
 <img src="project-scripts/webpack/markdown/logos/yarn.svg?sanitize=true" height="16" />
 
 ```
-yarn add @rakuten-rex/storybook-inspect-html@1.2.4
+yarn add @rakuten-rex/storybook-inspect-html@1.2.5
 ```
 
 # Getting started
@@ -77,9 +77,13 @@ stories.addDecorator(withA11y);
 
 ## Project Stack
 
-| Front-end | Tools |
-|-------------|-------------|
-| <img src="project-scripts/webpack/markdown/logos/html-5.svg?sanitize=true" height="16" /> HTML5 <img src="project-scripts/webpack/markdown/logos/css-3.svg?sanitize=true" height="16" /> CSS3 & Sass  <img src="project-scripts/webpack/markdown/logos/javascript.svg?sanitize=true" height="16" /> JavaScript ES6 <img src="project-scripts/webpack/markdown/logos/react.svg?sanitize=true" height="16" /> React | <img src="project-scripts/webpack/markdown/logos/webpack.svg?sanitize=true" height="16" /> webpack <img src="project-scripts/webpack/markdown/logos/storybook-icon.svg?sanitize=true" height="16" /> Storybook <img src="project-scripts/webpack/markdown/logos/babel.svg?sanitize=true" height="16" /> Babel <img src="project-scripts/webpack/markdown/logos/eslint.svg?sanitize=true" height="16" /> ESLint <img src="project-scripts/webpack/markdown/logos/prettier.svg?sanitize=true" height="16" /> Prettier |
+| Front-end |
+|-------------|
+| <img src="project-scripts/webpack/markdown/logos/html-5.svg?sanitize=true" height="16" /> HTML5 <img src="project-scripts/webpack/markdown/logos/css-3.svg?sanitize=true" height="16" /> CSS3 & Sass  <img src="project-scripts/webpack/markdown/logos/javascript.svg?sanitize=true" height="16" /> JavaScript ES6 <img src="project-scripts/webpack/markdown/logos/react.svg?sanitize=true" height="16" /> React |
+
+| Tools |
+|-------------|
+| <img src="project-scripts/webpack/markdown/logos/webpack.svg?sanitize=true" height="16" /> webpack <img src="project-scripts/webpack/markdown/logos/storybook-icon.svg?sanitize=true" height="16" /> Storybook <img src="project-scripts/webpack/markdown/logos/babel.svg?sanitize=true" height="16" /> Babel <img src="project-scripts/webpack/markdown/logos/eslint.svg?sanitize=true" height="16" /> ESLint <img src="project-scripts/webpack/markdown/logos/prettier.svg?sanitize=true" height="16" /> Prettier |
 
 ## Features
 
