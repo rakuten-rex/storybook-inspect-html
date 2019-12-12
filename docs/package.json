@@ -1,7 +1,7 @@
 {
   "name": "@rakuten-rex/storybook-inspect-html",
   "version": "1.2.0",
-  "description": "ReX React UI Component",
+  "description": "Inspect a React component HTML output",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -43,13 +43,13 @@
     "prismjs": "1.16.0"
   },
   "peerDependencies": {
-    "prop-types": "15.7.2",
-    "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "prop-types": "15.7.2",
-    "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
