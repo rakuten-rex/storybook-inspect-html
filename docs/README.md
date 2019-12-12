@@ -9,13 +9,13 @@ React, HTML/CSS and Vue.js
 <img src="https://raw.githubusercontent.com/rakuten-rex/storybook-inspect-html/master/project-scripts/webpack/markdown/logos/npm.svg?sanitize=true" height="16" />
 
 ```
-npm install @rakuten-rex/storybook-inspect-html@1.2.6 --save
+npm install @rakuten-rex/storybook-inspect-html@1.2.7 --save
 ```
 
 <img src="https://raw.githubusercontent.com/rakuten-rex/storybook-inspect-html/master/project-scripts/webpack/markdown/logos/yarn.svg?sanitize=true" height="16" />
 
 ```
-yarn add @rakuten-rex/storybook-inspect-html@1.2.6
+yarn add @rakuten-rex/storybook-inspect-html@1.2.7
 ```
 
 # Getting started
