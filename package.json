@@ -1,15 +1,15 @@
 {
   "name": "@rakuten-rex/storybook-inspect-html",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Inspect a React component HTML output",
   "main": "src/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=development ./node_modules/.bin/start-storybook -p 8080 --ci -s ./.storybook/public",
     "build": "npm run build:component && npm run build:storybook",
-    "build:patch": "npm --no-git-tag-version version patch && npm run build:commit",
-    "build:minor": "npm --no-git-tag-version version minor && npm run build:commit",
-    "build:major": "npm --no-git-tag-version version major && npm run build:commit",
+    "build:patch": "npm --no-git-tag-version version patch && npm run build:commit && npm run publish:component",
+    "build:minor": "npm --no-git-tag-version version minor && npm run build:commit && npm run publish:component",
+    "build:major": "npm --no-git-tag-version version major && npm run build:commit && npm run publish:component",
     "build:storybook": "NODE_ENV=production ./node_modules/.bin/build-storybook -c .storybook -o docs -s ./npm,./.storybook/public",
     "build:component": "NODE_ENV=production ./node_modules/.bin/webpack --mode=production --config webpack.config.js",
     "build:commit": "npm run build && npm run commit",
@@ -26,14 +26,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rakuten-rex/react-component-starter-kit.git"
+    "url": "https://github.com/rakuten-rex/storybook-inspect-html.git"
   },
-  "author": "ReX React UI Components Library Authors (https://github.com/rakuten-rex/react-component-starter-kit/graphs/contributors)",
+  "author": "ReX React UI Components Library Authors (https://github.com/rakuten-rex/storybook-inspect-html/graphs/contributors)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rakuten-rex/react-component-starter-kit/issues"
+    "url": "https://github.com/rakuten-rex/storybook-inspect-html/issues"
   },
-  "homepage": "https://rakuten-rex.github.io/react-component-starter-kit/",
+  "homepage": "https://rakuten-rex.github.io/storybook-inspect-html/",
   "dependencies": {
     "pretty": "2.0.0",
     "prismjs": "1.16.0",
