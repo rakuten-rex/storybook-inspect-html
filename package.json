@@ -1,6 +1,6 @@
 {
   "name": "@rakuten-rex/storybook-inspect-html",
-  "version": "1.2.6",
+  "version": "1.2.5",
   "description": "Inspect a React component HTML output",
   "main": "src/index.jsx",
   "scripts": {
@@ -19,6 +19,7 @@
     "commit:package": "git add package.json package-lock.json && git commit -m 'New version - v'$npm_package_version",
     "serve": "NODE_ENV=production ./node_modules/.bin/http-server -p 8081 docs",
     "publish:component": "cd ./npm && npm publish",
+    "finish:release": "git flow release finish v$npm_package_version && git push origin --tags",
     "setup": "npm run generate:package-json && npm run generate:rex-component && npm run reinstall",
     "generate:package-json": "plop --plopfile project-scripts/plop-templates/package-json/plop-generator.js",
     "generate:rex-component": "plop --plopfile project-scripts/plop-templates/RexComponent/plop-generator.js",
