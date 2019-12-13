@@ -75,7 +75,10 @@ export default class InspectHtml extends React.Component {
 
     if (active) {
       return (
-        <div style={{ paddingLeft: '20px' }}>
+        <div
+          className="addon-inspecthtml-container"
+          style={{ paddingLeft: '20px' }}
+        >
           <pre>
             <code dangerouslySetInnerHTML={{ __html: html }} />
           </pre>
